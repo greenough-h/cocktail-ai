@@ -2,7 +2,32 @@
   text-align: center;
 }
 
+body {
+  background-color: antiquewhite;
+}
+
 .main {
   display: flex;
   justify-content: center;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.IngredientsBlock {
+  margin-right: 20px;
+}
+.RecipeBlock {
+  margin-left: 20px;
+}
+.Footer {
+  font-size: 13px;
+}
+
+.Footer a {
+  color: rgb(255, 202, 110);
+  font-weight: bold;
+  text-decoration: none;
 }
