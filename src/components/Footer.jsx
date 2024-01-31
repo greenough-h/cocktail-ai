@@ -21,7 +21,11 @@ export default function Footer() {
           Github
         </a>{" "}
         and hosted on{" "}
-        <a href="/" target="_blank" rel="noreferrer">
+        <a
+          href="https://amazing-bunny-9f83c1.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Netlify
         </a>
       </p>
