@@ -19,10 +19,20 @@ body {
 .container {
   background-color: white;
   border-radius: 10px;
+  padding: 20px 0;
 }
 
 .IngredientsBlock {
   margin-right: 20px;
+}
+
+.IngredientsBlock ul {
+  list-style: none;
+}
+
+/* This may not be working but this will change later and become an input so not important */
+.IngredientsBlock li {
+  margin: none;
 }
 
 .RecipeBlock {
@@ -34,7 +44,7 @@ body {
 }
 
 .Footer a {
-  color: rgb(255, 202, 110);
+  color: rgb(196, 165, 111);
   font-weight: bold;
   text-decoration: none;
 }
